@@ -50,11 +50,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_analyze).setOnClickListener {
             LeakCanary.dumpHeap()
         }
-        thread {
-            while(true) {
-
-            }
-        }
     }
 }
 
